@@ -1,3 +1,5 @@
+# 你需要先安装spine软件，并把spine设置到系统环境变量中
+# You need to first install the spine software and set it to the system environment variables
 import os
 
 def export_project(project_path, output_path, export_json_path):
@@ -7,7 +9,7 @@ def export_project(project_path, output_path, export_json_path):
 # 输入输出文件夹和json导出设置文件路径
 # Input/output folder and JSON export settings file path
 
-input_dir = r"D:\动作序列帧训练素材\Q版武侠-暴走小虾米"
+input_dir = r"D:\aaa\bbb"
 output_dir = r"D:\ex\outputspine"
 json_path = r"D:\ex\exportJSON\22.export.json"
 
